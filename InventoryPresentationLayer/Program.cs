@@ -21,6 +21,8 @@ namespace InventoryPresentationLayer
             // Add Custom Services To DI Container
             builder.Services.AddScoped<IWarehouseService, WarehouseService>();
 
+            builder.Services.AddScoped<IProductService, ProductService>();
+
             var app = builder.Build();
 
             // Update DB & SeedData

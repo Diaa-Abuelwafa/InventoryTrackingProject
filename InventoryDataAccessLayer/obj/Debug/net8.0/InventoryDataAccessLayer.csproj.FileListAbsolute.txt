@@ -9,3 +9,4 @@ D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debu
 D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\refint\InventoryDataAccessLayer.dll
 D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.pdb
 D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\ref\InventoryDataAccessLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.sourcelink.json

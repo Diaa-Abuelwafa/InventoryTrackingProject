@@ -14,5 +14,6 @@ namespace InventoryDataAccessLayer.Entities
         public string Description { get; set; }
         public Warehouse Warehouse { get; set; }
         public int WarehouseId { get; set; }
+        public int Quantity { get; set; } = 0;
     }
 }

@@ -139,3 +139,4 @@ D:\Projects\CodeZone\Inventory Tracking System\InventoryPresentationLayer\obj\De
 D:\Projects\CodeZone\Inventory Tracking System\InventoryPresentationLayer\obj\Debug\net8.0\InventoryPresentationLayer.pdb
 D:\Projects\CodeZone\Inventory Tracking System\InventoryPresentationLayer\obj\Debug\net8.0\InventoryPresentationLayer.genruntimeconfig.cache
 D:\Projects\CodeZone\Inventory Tracking System\InventoryPresentationLayer\obj\Debug\net8.0\ref\InventoryPresentationLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryPresentationLayer\obj\Debug\net8.0\InventoryPresentationLayer.sourcelink.json

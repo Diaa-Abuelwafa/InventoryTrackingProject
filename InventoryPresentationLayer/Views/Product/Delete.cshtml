@@ -1,0 +1,52 @@
+﻿@using InventoryDataAccessLayer.Entities
+@model Product
+
+<form asp-controller="Product" asp-action="DeleteProduct" method="post" class="mt-4">
+    <div class="form-group mb-3">
+        <label for="ProductName" class="mb-2">Product Name</label>
+        <input type="text"
+               id="ProductName"
+               name="Name"
+               class="form-control"
+               value="@Model.Name"
+               required readonly>
+
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="ProductSKU" class="mb-2">Product SKU</label>
+        <input type="text"
+               id="ProductSKU"
+               name="SKU"
+               class="form-control"
+               value="@Model.SKU"
+               required readonly>
+
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="ProductDescription" class="mb-2">Product Description</label>
+        <input type="text"
+               id="ProductDescription"
+               name="Description"
+               class="form-control"
+               value="@Model.Description"
+               required readonly>
+
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="ProductDescription" class="mb-2">Product Description</label>
+        <input type="text"
+               id="ProductDescription"
+               name="WarehouseId"
+               class="form-control"
+               value="@Model.Warehouse.Name"
+               required readonly>
+    </div>
+
+
+    <input  hidden name="ProductId" value="@Model.Id" />
+
+    <button type="submit" class="btn btn-danger mt-3">Delete</button>
+</form>

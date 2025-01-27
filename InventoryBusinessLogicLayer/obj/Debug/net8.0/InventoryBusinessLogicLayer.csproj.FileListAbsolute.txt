@@ -13,3 +13,4 @@ D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\D
 D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\refint\InventoryBusinessLogicLayer.dll
 D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.pdb
 D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\ref\InventoryBusinessLogicLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.sourcelink.json
