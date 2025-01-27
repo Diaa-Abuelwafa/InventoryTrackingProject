@@ -14,5 +14,6 @@ namespace InventoryDataAccessLayer.Interfaces
         public int Add(Product Item);
         public int Edit(int ProductId, Product Item);
         public int Delete(int ProductId);
+        public int EditQuantity(int ProductId, int NewValueForQuantity);
     }
 }

@@ -56,6 +56,15 @@ namespace InventoryBusinessLogicLayer.Services
             return Context.SaveChanges();
         }
 
+        public int EditQuantity(int ProductId, int NewValueForQuantity)
+        {
+            var Product = GetById(ProductId);
+
+            Product.Quantity = NewValueForQuantity;
+
+            return Context.SaveChanges();
+        }
+
         public List<Product> GetAll()
         {
             return Context.Products.Include(x => x.Warehouse).ToList();

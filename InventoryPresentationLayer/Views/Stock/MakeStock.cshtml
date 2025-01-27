@@ -1,0 +1,40 @@
+﻿<div class="container mt-5">
+    <h1 class="text-center mb-4">Adjust Quantity</h1>
+
+    <form asp-action="SaveStock" asp-route-id ="@Model.Id" asp-controller="Stock" id="quantityForm" class="d-flex flex-column align-items-center justify-content-center p-4 bg-light shadow rounded" style="max-width: 400px; margin: auto;">
+        <div class="d-flex align-items-center mb-4">
+            <button type="button" id="decrementButton" class="btn btn-danger btn-sm mx-2 px-3">-</button>
+
+            <input type="number"
+                   name="NewValueForQuantity"
+                   id="quantityInput"
+                   class="form-control text-center"
+                   value="@Model.Quantity"
+                   min="0"
+                   readonly
+                   style="width: 80px;" />
+
+            <button type="button" id="incrementButton" class="btn btn-success btn-sm mx-2 px-3">+</button>
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">Save</button>
+    </form>
+</div>
+
+<script>
+    const quantityInput = document.getElementById('quantityInput');
+    const incrementButton = document.getElementById('incrementButton');
+    const decrementButton = document.getElementById('decrementButton');
+
+    incrementButton.addEventListener('click', () => {
+        let currentValue = parseInt(quantityInput.value);
+        quantityInput.value = currentValue + 1;
+    });
+
+    decrementButton.addEventListener('click', () => {
+        let currentValue = parseInt(quantityInput.value);
+        if (currentValue > 0) {
+            quantityInput.value = currentValue - 1;
+        }
+    });
+</script>
