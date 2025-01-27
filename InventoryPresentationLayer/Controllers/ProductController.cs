@@ -15,12 +15,12 @@ namespace InventoryPresentationLayer.Controllers
             this.ProductService = ProductService;
             this.WarehouseService = WarehouseService;
         }
-        public IActionResult Index()
+        public IActionResult Index(int? indx = null)
         {
-            var Data = ProductService.GetAll();
+            var Data = ProductService.GetAll(indx);
 
             ViewBag.Warehouses = WarehouseService.GetAll();
-            ViewBag.Products = ProductService.GetAll();
+            ViewBag.Products = ProductService.GetAll(indx);
 
             return View("Index");
         }

@@ -14,7 +14,7 @@ namespace InventoryPresentationLayer.Controllers
         }
         public IActionResult Index()
         {
-            var Products = ProductService.GetAll();
+            var Products = ProductService.GetAll(null);
 
             return View("Index", Products);
         }

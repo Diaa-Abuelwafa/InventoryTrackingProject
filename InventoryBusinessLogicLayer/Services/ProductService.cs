@@ -65,8 +65,13 @@ namespace InventoryBusinessLogicLayer.Services
             return Context.SaveChanges();
         }
 
-        public List<Product> GetAll()
+        public List<Product> GetAll(int? indx)
         {
+            if(indx is not null)
+            {
+                return Context.Products.Include(x => x.WarehouseId).Skip((int)indx * 10).Take(10).ToList();
+            }
+
             return Context.Products.Include(x => x.Warehouse).ToList();
         }
 

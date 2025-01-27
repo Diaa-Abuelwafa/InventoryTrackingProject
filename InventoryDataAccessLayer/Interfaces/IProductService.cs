@@ -9,7 +9,7 @@ namespace InventoryDataAccessLayer.Interfaces
 {
     public interface IProductService
     {
-        public List<Product> GetAll();
+        public List<Product> GetAll(int? indx);
         public Product GetById(int ProductId);
         public int Add(Product Item);
         public int Edit(int ProductId, Product Item);

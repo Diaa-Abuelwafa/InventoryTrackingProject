@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryBusinessLogicLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e20378348742fbda621291d95eb564fc827fbb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cf04cd1e9126d0ee4bea312ea8ba76f2fccc166")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryBusinessLogicLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryBusinessLogicLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
