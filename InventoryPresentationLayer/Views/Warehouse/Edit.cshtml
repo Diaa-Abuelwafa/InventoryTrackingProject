@@ -1,0 +1,21 @@
+﻿<div class="container mt-5">
+    <h1 class="text-center mb-4">Edit Warehouse</h1>
+
+    <form asp-controller="Warehouse" asp-action="EditName" method="post" class="mt-4">
+
+        <div class="form-group">
+            <label for="warehouseName">New Warehouse Name</label>
+            <input type="text"
+                   id="warehouseName"
+                   name="NewWarehouseName"
+                   class="form-control"
+                   value= "@Model"
+                   required>
+
+            <input hidden name="OldWarehouseName" value="@Model"/>
+
+        </div>
+
+        <button type="submit" class="btn btn-success mt-3">Save</button>
+    </form>
+</div>

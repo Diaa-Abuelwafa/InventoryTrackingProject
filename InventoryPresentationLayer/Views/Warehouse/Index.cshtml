@@ -1,0 +1,53 @@
+﻿@using InventoryDataAccessLayer.Entities
+@model List<Warehouse>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Warehouses</h1>
+
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count(); ++i)
+            {
+                <tr>
+                    <td>@Model[i].Id</td>
+                    <td>@Model[i].Name</td>
+                    <td>
+                        <a asp-controller="Warehouse" asp-action="Edit" asp-route-WarehouseName="@Model[i].Name" class="btn btn-primary btn-sm">
+                            Edit
+                        </a>
+                    </td>
+
+                    <td>
+                        <a asp-controller="Warehouse" asp-action="Delete" asp-route-WarehouseName="@Model[i].Name" class="btn btn-danger btn-sm">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <form asp-controller="Warehouse" asp-action="Add" method="post" class="mt-4">
+        <div class="form-group mb-3">
+            <label for="newWarehouseName" class="mb-2">Add New Warehouse Name</label>
+            <input type="text"
+                   id="newWarehouseName"
+                   name="newWarehouseName"
+                   class="form-control"
+                   placeholder="Enter new warehouse name"
+                   required>
+        </div>
+        <button type="submit" class="btn btn-success mt-3">Add</button>
+    </form>
+
+
+
+</div>

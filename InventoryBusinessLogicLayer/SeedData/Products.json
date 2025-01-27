@@ -1,0 +1,62 @@
+[
+  {
+    "SKU": "PROD001",
+    "Name": "Laptop",
+    "Description": "High-performance laptop",
+    "WarehouseId": 1
+  },
+  {
+    "SKU": "PROD002",
+    "Name": "Smartphone",
+    "Description": "Latest model smartphone",
+    "WarehouseId": 2
+  },
+  {
+    "SKU": "PROD003",
+    "Name": "Tablet",
+    "Description": "10-inch display tablet",
+    "WarehouseId": 3
+  },
+  {
+    "SKU": "PROD004",
+    "Name": "Headphones",
+    "Description": "Noise-cancelling headphones",
+    "WarehouseId": 4
+  },
+  {
+    "SKU": "PROD005",
+    "Name": "Camera",
+    "Description": "DSLR camera with lens",
+    "WarehouseId": 5
+  },
+  {
+    "SKU": "PROD006",
+    "Name": "Printer",
+    "Description": "All-in-one printer",
+    "WarehouseId": 6
+  },
+  {
+    "SKU": "PROD007",
+    "Name": "Monitor",
+    "Description": "27-inch 4K monitor",
+    "WarehouseId": 7
+  },
+  {
+    "SKU": "PROD008",
+    "Name": "Keyboard",
+    "Description": "Mechanical keyboard",
+    "WarehouseId": 8
+  },
+  {
+    "SKU": "PROD009",
+    "Name": "Mouse",
+    "Description": "Wireless mouse",
+    "WarehouseId": 9
+  },
+  {
+    "SKU": "PROD010",
+    "Name": "External Hard Drive",
+    "Description": "1TB external hard drive",
+    "WarehouseId": 10
+  }
+]

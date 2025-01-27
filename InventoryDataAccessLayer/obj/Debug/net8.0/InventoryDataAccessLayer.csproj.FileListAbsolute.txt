@@ -1,0 +1,11 @@
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\bin\Debug\net8.0\InventoryDataAccessLayer.deps.json
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\bin\Debug\net8.0\InventoryDataAccessLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\bin\Debug\net8.0\InventoryDataAccessLayer.pdb
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.AssemblyInfoInputs.cache
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.AssemblyInfo.cs
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\refint\InventoryDataAccessLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\InventoryDataAccessLayer.pdb
+D:\Projects\CodeZone\Inventory Tracking System\InventoryDataAccessLayer\obj\Debug\net8.0\ref\InventoryDataAccessLayer.dll

@@ -1,0 +1,15 @@
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\bin\Debug\net8.0\InventoryBusinessLogicLayer.deps.json
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\bin\Debug\net8.0\InventoryBusinessLogicLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\bin\Debug\net8.0\InventoryBusinessLogicLayer.pdb
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\bin\Debug\net8.0\InventoryDataAccessLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\bin\Debug\net8.0\InventoryDataAccessLayer.pdb
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.csproj.AssemblyReference.cache
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.AssemblyInfoInputs.cache
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.AssemblyInfo.cs
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\Inventor.84C75628.Up2Date
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\refint\InventoryBusinessLogicLayer.dll
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\InventoryBusinessLogicLayer.pdb
+D:\Projects\CodeZone\Inventory Tracking System\InventoryBusinessLogicLayer\obj\Debug\net8.0\ref\InventoryBusinessLogicLayer.dll
